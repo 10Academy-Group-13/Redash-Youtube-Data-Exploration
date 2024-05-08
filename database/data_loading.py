@@ -75,53 +75,53 @@ db_params = {
 }
 
 # Load data into tables
-load_data('content_type_table_data', 'data/Content type/Table data.csv', db_params)
-load_data('content_type_chart_data', 'data/Content type/Chart data.csv', db_params)
+load_data('content_type_table', 'data/Content type/Table data.csv', db_params)
+load_data('content_type_chart', 'data/Content type/Chart data.csv', db_params)
 
 
 # Load data for Device type
-load_data('device_type_table_data', 'data/Device type/Table data.csv',db_params)
-load_data('device_type_chart_data', 'data/Device type/Chart data.csv',db_params)
+load_data('device_type_table', 'data/Device type/Table data.csv',db_params)
+load_data('device_type_chart', 'data/Device type/Chart data.csv',db_params)
 
 # Load data for Geography
-load_data('geography_table_data', 'data/Geography/Table data.csv',db_params)
-load_data('geography_chart_data', 'data/Geography/Chart data.csv',db_params)
+load_data('geography_table', 'data/Geography/Table data.csv',db_params)
+load_data('geography_chart', 'data/Geography/Chart data.csv',db_params)
 
 # Load data for New and returning viewers
-load_data('new_and_returning_viewers_table_data', 'data/New and returning viewers/Table data.csv',db_params)
-load_data('new_and_returning_viewers_chart_data', 'data/New and returning viewers/Chart data.csv',db_params)
+load_data('new_and_returning_viewers_table', 'data/New and returning viewers/Table data.csv',db_params)
+load_data('new_and_returning_viewers_chart', 'data/New and returning viewers/Chart data.csv',db_params)
 
 # Load data for Viewership by Date
-load_data('viewership_by_date_table_data', 'data/Viewership by Date/Table data.csv',db_params)
+load_data('viewership_by_date_table', 'data/Viewership by Date/Table data.csv',db_params)
 
 # Load data for Viewer gender
-load_data('viewer_gender_table_data', 'data/Viewer gender/Table data.csv',db_params)
+load_data('viewer_gender_table', 'data/Viewer gender/Table data.csv',db_params)
 
 # Load data for Viewer age
-load_data('viewer_age_table_data', 'data/Viewer age/Table data.csv',db_params)
+load_data('viewer_age_table', 'data/Viewer age/Table data.csv',db_params)
 
 # Load data for Traffic source
-load_data('traffic_source_table_data', 'data/Traffic source/Table data.csv',db_params)
-load_data('traffic_source_chart_data', 'data/Traffic source/Chart data.csv',db_params)
+load_data('traffic_source_table', 'data/Traffic source/Table data.csv',db_params)
+load_data('traffic_source_chart', 'data/Traffic source/Chart data.csv',db_params)
 
 # Load data for Subtitles and CC
-load_data('subtitles_and_cc_table_data', 'data/Subtitles and CC/Table data.csv',db_params)
-load_data('subtitles_and_cc_chart_data', 'data/Subtitles and CC/Chart data.csv',db_params)
+load_data('subtitles_and_cc_table', 'data/Subtitles and CC/Table data.csv',db_params)
+load_data('subtitles_and_cc_chart', 'data/Subtitles and CC/Chart data.csv',db_params)
 
 # Load data for Subscription status
-load_data('subscription_status_table_data', 'data/Subscription status/Table data.csv',db_params)
-load_data('subscription_status_chart_data', 'data/Subscription status/Chart data.csv',db_params)
+load_data('subscription_status_table', 'data/Subscription status/Table data.csv',db_params)
+load_data('subscription_status_chart', 'data/Subscription status/Chart data.csv',db_params)
 
 # Load data for Subscription source
-load_data('subscription_source_table_data', 'data/Subscription source/Table data.csv',db_params)
-load_data('subscription_source_chart_data', 'data/Subscription source/Chart data.csv',db_params)
+load_data('subscription_source_table', 'data/Subscription source/Table data.csv',db_params)
+load_data('subscription_source_chart', 'data/Subscription source/Chart data.csv',db_params)
 
 # Load data for Sharing service
-load_data('sharing_service_table_data', 'data/Sharing service/Table data.csv',db_params)
-load_data('sharing_service_chart_data', 'data/Sharing service/Chart data.csv',db_params)
+load_data('sharing_service_table', 'data/Sharing service/Table data.csv',db_params)
+load_data('sharing_service_chart', 'data/Sharing service/Chart data.csv',db_params)
 
 # Load data for Operating system
-load_data('operating_system_table_data', 'data/Operating system/Table data.csv',db_params)
-load_data('operating_system_chart_data', 'data/Operating system/Chart data.csv',db_params)
+load_data('operating_system_table', 'data/Operating system/Table data.csv',db_params)
+load_data('operating_system_chart', 'data/Operating system/Chart data.csv',db_params)
 
 print("All data loaded successfully.")
