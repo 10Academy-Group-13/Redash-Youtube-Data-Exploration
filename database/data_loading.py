@@ -73,6 +73,9 @@ db_params = {
     'host': 'localhost',
     'port': '5432'
 }
+# Load data into tables
+load_data('cities_table', 'data/Cities/Table data.csv', db_params)
+load_data('cities_chart', 'data/Cities/Chart data.csv', db_params)
 
 # Load data into tables
 load_data('content_type_table', 'data/Content type/Table data.csv', db_params)
