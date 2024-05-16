@@ -1,9 +1,9 @@
+import Widget from "./widget";
 import _ from "lodash";
 import { axios } from "@/services/axios";
-import dashboardGridOptions from "@/config/dashboard-grid-options";
-import Widget from "./widget";
-import location from "@/services/location";
 import { cloneParameter } from "@/services/parameters";
+import dashboardGridOptions from "@/config/dashboard-grid-options";
+import location from "@/services/location";
 import { policy } from "@/services/policy";
 
 export const urlForDashboard = ({ id, slug }) => `dashboards/${id}-${slug}`;
@@ -50,7 +50,7 @@ function prepareWidgetsForDashboard(widgets) {
       20
     ) + 5;
 
-  // Fix layout:
+  // Fix layout: 
   // 1. sort and group widgets by row
   // 2. update position of widgets in each row - place it right below
   //    biggest widget from previous row

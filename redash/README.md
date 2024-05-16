@@ -84,7 +84,6 @@ Redash supports more than 35 SQL and NoSQL [data sources](https://redash.io/help
 - Python
 - Qubole
 - Rockset
-- RisingWave
 - Salesforce
 - ScyllaDB
 - Shell Scripts
